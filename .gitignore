@@ -1,0 +1,11 @@
+*.bat
+*.db
+Makefile
+.vscode/
+source/_build/
+source/_static/
+source/_templates/
+build/doctrees/
+build/html/
+build/latex/*
+!build/latex/zh_hant_test.pdf
