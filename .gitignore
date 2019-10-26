@@ -9,3 +9,7 @@ build/doctrees/
 build/html/
 build/latex/*
 !build/latex/zh_hant_test.pdf
+*.gz
+*.out
+*.log
+*.aux
