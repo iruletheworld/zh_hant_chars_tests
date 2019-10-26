@@ -4,7 +4,7 @@ Due to some font problems, remote built PDFs on `readthedocs.org` may
 not have some Chinese characters in them (characters not shown, appeared
 as "tofu", or as "F" inside squares).
 
-This project is aim to test what fonts `readthedocs.org` have for the
+This project aims to test what fonts `readthedocs.org` have for the
 Chinese language and see how compatible they are for zh-hans, zh-hant
 (HK) and zh-hant (TW).
 
