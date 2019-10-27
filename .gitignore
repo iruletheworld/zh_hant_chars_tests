@@ -13,3 +13,4 @@ build/latex/*
 *.out
 *.log
 *.aux
+*.toc

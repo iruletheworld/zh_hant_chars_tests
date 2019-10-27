@@ -1,9 +1,12 @@
 \documentclass[a4paper,12pt, fontset=none, hyperref]{ctexbook}
 \usepackage{ctex}
-\ctexset{fontset=ubuntu}
+%\ctexset{fontset=ubuntu}
 %fonts-arphic-uming
 %fonts-arphic-ukai
 %fonts-wqy-zenhei
+\setCJKmainfont{Source Han Serif TC}
+\setCJKsansfont{Source Han Sans TC}
+
 \usepackage{zhlipsum}
 
 \title{Tests of traditional Chinese characters with ctex in fontset=ubuntu}
@@ -11,6 +14,7 @@
 \begin{document}
 
 \maketitle
+\tableofcontents
 
 	\chapter{zh-hant HK vs TW}
 	
@@ -26,7 +30,7 @@
 		
 		The followings are simplified version.
 		
-		叹 为 著 妆 床 里 线 面 钩 只 群 酝 卫 才 峰 污
+		叹 为 着 妆 床 里 线 面 钩 只 群 酝 卫 才 峰 污
 
 	\chapter{zh-hant HK manual, Shǔ Dào Nán by Lǐ Bái}
 	
@@ -51,7 +55,7 @@
 		朝避猛虎，夕避長蛇。磨牙吮血，殺人如麻。
 		錦城雖云樂，不如早還家。
 		蜀道之難，難於上青天，側身西望長咨嗟！
-%
+
 	\chapter{zh-hant TW manual, Luò Shén Fù by Cáo Zhí}
 	
 		黃初三年，余朝京師，還濟洛川。古人有言，斯水之神，名曰宓妃。感宋玉對楚王神女之事，遂作斯賦。其辭曰：
@@ -162,8 +166,8 @@
 
 	\chapter{zh-hant lipsum sans}
 
-		\textbf{\zhlipsum[1-20][name=xiangyu]}
-		
+		\textsf{\zhlipsum[1-20][name=xiangyu]}
+	
 	\chapter{zh-hant lipsum italic}
 	
 		\textit{\zhlipsum[1-20][name=nanshanjing]}
@@ -172,7 +176,7 @@
 
 		\zhlipsum[1-20]
 		
-	\chapter{zh-hans lipsum sans}
+	\chapter{zh-hans lipsum bold serif}
 
 		\textbf{\zhlipsum[1-20]}
 
